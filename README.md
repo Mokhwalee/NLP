@@ -54,10 +54,10 @@ Presents encoder-decoder models used for tasks like machine translation and summ
 Explains the intuition and implementation of attention in neural networks. Covers additive and dot-product attention, along with its role in improving Seq2Seq models.
 
 ### 8. **Pretrained Models and Fine-tuning**
-- `09_finetuning_bert.ipynb`
+- `08_finetuning_bert.ipynb`
 - BERT
 - GPT
-- Hugging Face Transformers (`huggingface_intro.ipynb`)
+- Hugging Face Transformers 
 Covers Hugging Face’s Transformers library, focusing on loading and fine-tuning BERT, GPT, and other foundation models for downstream tasks like classification and Q&A.
 
 ## 🛠️ Dependencies
@@ -74,8 +74,12 @@ Covers Hugging Face’s Transformers library, focusing on loading and fine-tunin
 You can install the required packages via:
 ```bash
 pip install -r requirements.txt
+```
 
-✅ Optional: Add this line at the end of "requirements.txt" if you plan to use GPU for TensorFlow or PyTorch: tensorflow-gpu
+✅ Optional: Add this line at the end of "requirements.txt" if you plan to use GPU for TensorFlow or PyTorch: 
+```bash
+tensorflow-gpu
+```
 
 For PyTorch GPU: Check your CUDA version and install PyTorch accordingly from:
 https://pytorch.org/get-started/locally/
